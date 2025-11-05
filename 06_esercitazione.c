@@ -8,11 +8,6 @@ int main() {
     int length = sizeof(array)/sizeof(array[0]);
     int i = length -1;
 
-
-    //for ( i = 0; i > length; i--){
-        //printf("%d\n", length);
-    //}
-
     while (i >= 0){
         printf("%d\n", array[i]);
         i--;
