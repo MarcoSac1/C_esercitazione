@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C Debug (F5)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\output\\${fileBasenameNoExtension}.exe",
+      "cwd": "${fileDirname}\\output",
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "preLaunchTask": "run C (F6)"
+    }
+  ]
+}

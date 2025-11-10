@@ -16,7 +16,6 @@ int main() {
         printf("inserisci il %d numero intero per l'array a \n",i+1);
         scanf("%d", &a[i]);
         somma=somma+a[i];
-
     } 
     
     printf("La somma degli elementi e' %d\n", somma);
